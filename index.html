@@ -16,17 +16,14 @@ font-family: 'Work Sans', sans-serif;
 html, body {
 height: 100%;
 color: #1a1b1c;
+background-image: url('back.jpg');
 
+background-blend-mode: color;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
 }
-.bg-image{
-  background-image: url('back.jpg');
-  filter: blur(8px);
-   -webkit-filter: blur(8px);
-  background-blend-mode: color;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
+
 label, a {
 cursor: pointer;
 user-select: none;
@@ -197,7 +194,6 @@ if (document.location.search.match(/type=embed/gi)) {
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Растения</title>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700&display=swap" rel="stylesheet">
-<div class="bg-image"></div>
 <div class="layout">
   <input name="nav" type="radio" class="nav home-radio" id="home" checked="checked" />
   <div class="page home-page">
